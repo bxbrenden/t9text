@@ -19,5 +19,5 @@ digits = "2332" #can also be `int` such as 2332
 
 words = t9.get_words(digits)
 for word in words:
-    print(word)  # ["adda", addb", "addc", "aeda" ...]
+    print(word)  # ["adda", addb", "addc", "adea" ...]
 ```
