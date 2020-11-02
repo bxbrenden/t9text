@@ -22,6 +22,9 @@ for word in words:
     print(word)  # ["adda", addb", "addc", "adea" ...]
 ```
 
+## Requirements
+This package uses python `f-strings`, so it requires `python >= 3.6`.
+
 ## Installation
 The `t9text` package is hosted on [PyPI.org](https://pypi.org/project/t9text/).
 
