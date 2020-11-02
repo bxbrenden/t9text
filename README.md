@@ -12,7 +12,7 @@ buttons = t9.get_touchtone(daily_show)
 print(buttons)  # prints "1-210-94-27463"
 ```
 
-- Given a string of 10 or fewer digits, display all possible T9 "words", e.g.:
+- Given a string of digits, display all possible T9 "words", e.g.:
 ```python
 from t9text import t9
 digits = "2332" #can also be `int` such as 2332
@@ -21,3 +21,6 @@ words = t9.get_words(digits)
 for word in words:
     print(word)  # ["adda", addb", "addc", "adea" ...]
 ```
+
+## Contributing
+This is a very simple utility for my personal use, but if you would like to contribute, please fork the repository, make your changes, and send me a PR. Thanks!
