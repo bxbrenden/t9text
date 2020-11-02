@@ -22,5 +22,13 @@ for word in words:
     print(word)  # ["adda", addb", "addc", "adea" ...]
 ```
 
+## Installation
+The `t9text` package is hosted on [PyPI.org](https://pypi.org/project/t9text/).
+
+You can install it via this `pip` command:
+```bash
+pip install t9text
+```
+
 ## Contributing
 This is a very simple utility for my personal use, but if you would like to contribute, please fork the repository, make your changes, and send me a PR. Thanks!
